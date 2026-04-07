@@ -1,0 +1,9 @@
+create table produtos(
+id int,
+nome varchar(50)
+)
+
+insert into produtos values (1, 'maça');
+insert into produtos values (2, 'uva');
+
+select * from produtos;

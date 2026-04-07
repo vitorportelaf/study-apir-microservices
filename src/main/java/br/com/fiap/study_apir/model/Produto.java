@@ -2,11 +2,13 @@ package br.com.fiap.study_apir.model;
 
 import java.math.BigDecimal;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class Produto {
-    private final Long id;
-    private final String nome;
-    private final BigDecimal valor;
+    private Long id;
+    private String nome;
+    private BigDecimal valor;
 }
